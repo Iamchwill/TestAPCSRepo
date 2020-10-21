@@ -1,6 +1,6 @@
 public class Demo {
   public static void main(String[] args) {
-    /* Tests
+      /*Tests
       int[] one = {1};
       int[] two = {1,2};
       int[] three = {1,2,3};
@@ -15,12 +15,13 @@ public class Demo {
       System.out.println(arrayDeepToString(fill));
       System.out.println(arrayDeepToString(create2DArrayRandomized(10,10,10)));
       System.out.println(arrayDeepToString(create2DArray(3,3,3)));
+      */
       if (args.length > 0) {
       printLoop(Integer.parseInt(args[0]));
     }
     else {
       printLoop(5);
-    } */
+    }
   }
 
   public static void printLoop(int x) {
